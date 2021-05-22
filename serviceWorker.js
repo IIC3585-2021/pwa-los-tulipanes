@@ -16,6 +16,7 @@ const assets = [
 ];
 
 self.addEventListener("install", (installEvent) => {
+  console.log("installing sw..");
   installEvent.waitUntil(
     caches.open(staticDevCoffee).then((cache) => {
       cache.addAll(assets);

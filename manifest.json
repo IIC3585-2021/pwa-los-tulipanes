@@ -6,6 +6,8 @@
     "background_color": "#fdfdfd",
     "theme_color": "#db4938",
     "orientation": "portrait-primary",
+    "splash_pages": null,
+    "gcm_sender_id": "946274365193",
     "icons": [
       {
         "src": "/images/icons/icon-96x96.png",

@@ -9,6 +9,8 @@
     <link rel="manifest" href="manifest.json" />
     <!-- ios support -->
     <link rel="apple-touch-icon" href="images/icons/icon-72x72.png" />
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-messaging.js"></script>
     <meta name="apple-mobile-web-app-status-bar" content="#db4938" />
     <meta name="theme-color" content="#db4938" />
 
@@ -19,13 +21,16 @@
       <nav>
         <h1>Devs'Coffees</h1>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Blog</li>
+          <li class="li-text">¿Admite notificaciones?</li>
+          <li>
+            <label class="switch">
+              <input class="checkbox" type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </li>
         </ul>
       </nav>
-      <div class="container">
-      </div>
+      <div class="container"></div>
     </main>
     <script src="app.js"></script>
   </body>
